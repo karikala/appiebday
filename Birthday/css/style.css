@@ -1,0 +1,92 @@
+*{
+  margin: 0;
+
+}
+
+
+/*Box fixing*/
+
+ *{
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+/*Box fixing*/
+
+body{
+  background: url("../images/space-background.png");
+}
+
+.container{
+  width: 600px;
+  margin: 100px auto 0 auto;
+  
+}
+
+
+section.hero{
+  font-size: 0;
+  border-radius: 15px;
+
+}
+
+.hero img{
+  border-radius: 15px;
+}
+
+
+
+
+
+.intro{
+  background:whitesmoke ;
+  overflow: hidden;
+}
+
+/*.clearfix: after {
+   content: "";
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+*/
+
+aside.right{
+  float:  right;
+}
+
+.introp{
+  font-family: 'Dancing Script', cursive;
+  font-size: 20px;
+  line-height:2;
+  padding: 15px;
+  
+}
+
+section.contact{
+  background: pink;
+  font-family: 'Dancing Script', cursive;
+  font-size: 20px;
+  line-height: 2;
+  overflow: hidden;
+  padding: 15px;
+}
+
+aside.left{
+  float: left;
+  font-size: 0px;
+  margin-right: 15px;
+  
+}
+
+h1,h2{
+    font-family: 'Lobster', cursive;
+  color: #e22f8f;
+  text-align: center;
+}
+
+h1{
+  font-size: 40px;
+}
+
